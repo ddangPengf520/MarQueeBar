@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB448AAC1F7B7A0000CB8AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448AAB1F7B7A0000CB8AF9 /* main.m */; };
+		FB448AAF1F7B7A0000CB8AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448AAE1F7B7A0000CB8AF9 /* AppDelegate.m */; };
+		FB448AB21F7B7A0000CB8AF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448AB11F7B7A0000CB8AF9 /* ViewController.m */; };
+		FB448AB51F7B7A0000CB8AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB448AB31F7B7A0000CB8AF9 /* Main.storyboard */; };
+		FB448AB71F7B7A0000CB8AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB448AB61F7B7A0000CB8AF9 /* Assets.xcassets */; };
+		FB448ABA1F7B7A0000CB8AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB448AB81F7B7A0000CB8AF9 /* LaunchScreen.storyboard */; };
+		FB448AC51F7B7A0000CB8AF9 /* JCMarQueDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448AC41F7B7A0000CB8AF9 /* JCMarQueDemoTests.m */; };
+		FB448AD01F7B7A0000CB8AF9 /* JCMarQueDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448ACF1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.m */; };
+		FB448AE01F7B7A4100CB8AF9 /* MarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB448ADF1F7B7A4100CB8AF9 /* MarqueeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB448AC11F7B7A0000CB8AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB448A9F1F7B7A0000CB8AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB448AA61F7B7A0000CB8AF9;
+			remoteInfo = JCMarQueDemo;
+		};
+		FB448ACC1F7B7A0000CB8AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB448A9F1F7B7A0000CB8AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB448AA61F7B7A0000CB8AF9;
+			remoteInfo = JCMarQueDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB448AA71F7B7A0000CB8AF9 /* JCMarQueDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCMarQueDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB448AAB1F7B7A0000CB8AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB448AAD1F7B7A0000CB8AF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB448AAE1F7B7A0000CB8AF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB448AB01F7B7A0000CB8AF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB448AB11F7B7A0000CB8AF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB448AB41F7B7A0000CB8AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB448AB61F7B7A0000CB8AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB448AB91F7B7A0000CB8AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB448ABB1F7B7A0000CB8AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB448AC01F7B7A0000CB8AF9 /* JCMarQueDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMarQueDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB448AC41F7B7A0000CB8AF9 /* JCMarQueDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMarQueDemoTests.m; sourceTree = "<group>"; };
+		FB448AC61F7B7A0000CB8AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB448ACB1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCMarQueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB448ACF1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMarQueDemoUITests.m; sourceTree = "<group>"; };
+		FB448AD11F7B7A0000CB8AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB448ADE1F7B7A4100CB8AF9 /* MarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeView.h; sourceTree = "<group>"; };
+		FB448ADF1F7B7A4100CB8AF9 /* MarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB448AA41F7B7A0000CB8AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448ABD1F7B7A0000CB8AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448AC81F7B7A0000CB8AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB448A9E1F7B7A0000CB8AF9 = {
+			isa = PBXGroup;
+			children = (
+				FB448AA91F7B7A0000CB8AF9 /* JCMarQueDemo */,
+				FB448AC31F7B7A0000CB8AF9 /* JCMarQueDemoTests */,
+				FB448ACE1F7B7A0000CB8AF9 /* JCMarQueDemoUITests */,
+				FB448AA81F7B7A0000CB8AF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB448AA81F7B7A0000CB8AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB448AA71F7B7A0000CB8AF9 /* JCMarQueDemo.app */,
+				FB448AC01F7B7A0000CB8AF9 /* JCMarQueDemoTests.xctest */,
+				FB448ACB1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB448AA91F7B7A0000CB8AF9 /* JCMarQueDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FB448ADD1F7B7A1D00CB8AF9 /* JCMarQuee */,
+				FB448AAD1F7B7A0000CB8AF9 /* AppDelegate.h */,
+				FB448AAE1F7B7A0000CB8AF9 /* AppDelegate.m */,
+				FB448AB01F7B7A0000CB8AF9 /* ViewController.h */,
+				FB448AB11F7B7A0000CB8AF9 /* ViewController.m */,
+				FB448AB31F7B7A0000CB8AF9 /* Main.storyboard */,
+				FB448AB61F7B7A0000CB8AF9 /* Assets.xcassets */,
+				FB448AB81F7B7A0000CB8AF9 /* LaunchScreen.storyboard */,
+				FB448ABB1F7B7A0000CB8AF9 /* Info.plist */,
+				FB448AAA1F7B7A0000CB8AF9 /* Supporting Files */,
+			);
+			path = JCMarQueDemo;
+			sourceTree = "<group>";
+		};
+		FB448AAA1F7B7A0000CB8AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB448AAB1F7B7A0000CB8AF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB448AC31F7B7A0000CB8AF9 /* JCMarQueDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB448AC41F7B7A0000CB8AF9 /* JCMarQueDemoTests.m */,
+				FB448AC61F7B7A0000CB8AF9 /* Info.plist */,
+			);
+			path = JCMarQueDemoTests;
+			sourceTree = "<group>";
+		};
+		FB448ACE1F7B7A0000CB8AF9 /* JCMarQueDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB448ACF1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.m */,
+				FB448AD11F7B7A0000CB8AF9 /* Info.plist */,
+			);
+			path = JCMarQueDemoUITests;
+			sourceTree = "<group>";
+		};
+		FB448ADD1F7B7A1D00CB8AF9 /* JCMarQuee */ = {
+			isa = PBXGroup;
+			children = (
+				FB448ADE1F7B7A4100CB8AF9 /* MarqueeView.h */,
+				FB448ADF1F7B7A4100CB8AF9 /* MarqueeView.m */,
+			);
+			path = JCMarQuee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB448AA61F7B7A0000CB8AF9 /* JCMarQueDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB448AD41F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemo" */;
+			buildPhases = (
+				FB448AA31F7B7A0000CB8AF9 /* Sources */,
+				FB448AA41F7B7A0000CB8AF9 /* Frameworks */,
+				FB448AA51F7B7A0000CB8AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCMarQueDemo;
+			productName = JCMarQueDemo;
+			productReference = FB448AA71F7B7A0000CB8AF9 /* JCMarQueDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB448ABF1F7B7A0000CB8AF9 /* JCMarQueDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB448AD71F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemoTests" */;
+			buildPhases = (
+				FB448ABC1F7B7A0000CB8AF9 /* Sources */,
+				FB448ABD1F7B7A0000CB8AF9 /* Frameworks */,
+				FB448ABE1F7B7A0000CB8AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB448AC21F7B7A0000CB8AF9 /* PBXTargetDependency */,
+			);
+			name = JCMarQueDemoTests;
+			productName = JCMarQueDemoTests;
+			productReference = FB448AC01F7B7A0000CB8AF9 /* JCMarQueDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB448ACA1F7B7A0000CB8AF9 /* JCMarQueDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB448ADA1F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemoUITests" */;
+			buildPhases = (
+				FB448AC71F7B7A0000CB8AF9 /* Sources */,
+				FB448AC81F7B7A0000CB8AF9 /* Frameworks */,
+				FB448AC91F7B7A0000CB8AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB448ACD1F7B7A0000CB8AF9 /* PBXTargetDependency */,
+			);
+			name = JCMarQueDemoUITests;
+			productName = JCMarQueDemoUITests;
+			productReference = FB448ACB1F7B7A0000CB8AF9 /* JCMarQueDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB448A9F1F7B7A0000CB8AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "风外杏林香";
+				TargetAttributes = {
+					FB448AA61F7B7A0000CB8AF9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+					};
+					FB448ABF1F7B7A0000CB8AF9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB448AA61F7B7A0000CB8AF9;
+					};
+					FB448ACA1F7B7A0000CB8AF9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ALTB98N9YR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FB448AA61F7B7A0000CB8AF9;
+					};
+				};
+			};
+			buildConfigurationList = FB448AA21F7B7A0000CB8AF9 /* Build configuration list for PBXProject "JCMarQueDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB448A9E1F7B7A0000CB8AF9;
+			productRefGroup = FB448AA81F7B7A0000CB8AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB448AA61F7B7A0000CB8AF9 /* JCMarQueDemo */,
+				FB448ABF1F7B7A0000CB8AF9 /* JCMarQueDemoTests */,
+				FB448ACA1F7B7A0000CB8AF9 /* JCMarQueDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB448AA51F7B7A0000CB8AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB448ABA1F7B7A0000CB8AF9 /* LaunchScreen.storyboard in Resources */,
+				FB448AB71F7B7A0000CB8AF9 /* Assets.xcassets in Resources */,
+				FB448AB51F7B7A0000CB8AF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448ABE1F7B7A0000CB8AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448AC91F7B7A0000CB8AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB448AA31F7B7A0000CB8AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB448AB21F7B7A0000CB8AF9 /* ViewController.m in Sources */,
+				FB448AAF1F7B7A0000CB8AF9 /* AppDelegate.m in Sources */,
+				FB448AAC1F7B7A0000CB8AF9 /* main.m in Sources */,
+				FB448AE01F7B7A4100CB8AF9 /* MarqueeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448ABC1F7B7A0000CB8AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB448AC51F7B7A0000CB8AF9 /* JCMarQueDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB448AC71F7B7A0000CB8AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB448AD01F7B7A0000CB8AF9 /* JCMarQueDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB448AC21F7B7A0000CB8AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB448AA61F7B7A0000CB8AF9 /* JCMarQueDemo */;
+			targetProxy = FB448AC11F7B7A0000CB8AF9 /* PBXContainerItemProxy */;
+		};
+		FB448ACD1F7B7A0000CB8AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB448AA61F7B7A0000CB8AF9 /* JCMarQueDemo */;
+			targetProxy = FB448ACC1F7B7A0000CB8AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB448AB31F7B7A0000CB8AF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB448AB41F7B7A0000CB8AF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB448AB81F7B7A0000CB8AF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB448AB91F7B7A0000CB8AF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB448AD21F7B7A0000CB8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB448AD31F7B7A0000CB8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB448AD51F7B7A0000CB8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB448AD61F7B7A0000CB8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB448AD81F7B7A0000CB8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMarQueDemo.app/JCMarQueDemo";
+			};
+			name = Debug;
+		};
+		FB448AD91F7B7A0000CB8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCMarQueDemo.app/JCMarQueDemo";
+			};
+			name = Release;
+		};
+		FB448ADB1F7B7A0000CB8AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCMarQueDemo;
+			};
+			name = Debug;
+		};
+		FB448ADC1F7B7A0000CB8AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ALTB98N9YR;
+				INFOPLIST_FILE = JCMarQueDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JCMarQueDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCMarQueDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB448AA21F7B7A0000CB8AF9 /* Build configuration list for PBXProject "JCMarQueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB448AD21F7B7A0000CB8AF9 /* Debug */,
+				FB448AD31F7B7A0000CB8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB448AD41F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB448AD51F7B7A0000CB8AF9 /* Debug */,
+				FB448AD61F7B7A0000CB8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB448AD71F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB448AD81F7B7A0000CB8AF9 /* Debug */,
+				FB448AD91F7B7A0000CB8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB448ADA1F7B7A0000CB8AF9 /* Build configuration list for PBXNativeTarget "JCMarQueDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB448ADB1F7B7A0000CB8AF9 /* Debug */,
+				FB448ADC1F7B7A0000CB8AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB448A9F1F7B7A0000CB8AF9 /* Project object */;
+}
